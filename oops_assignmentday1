@@ -32,7 +32,7 @@ class Trainer:
         name="10000Coders"
         ceo="rakesh"
         teamMember="Akhil"
-        print("3rd company")
+        print("3rd company..")
 
     def currentCompany(self):
         name="byteCode"
