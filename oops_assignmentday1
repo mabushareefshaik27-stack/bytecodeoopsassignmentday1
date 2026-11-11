@@ -1,0 +1,42 @@
+name="NTR"
+class Trainer:
+    print(name) #NTR
+    name ="vamsiEnduri"
+    print(name) # vamsiEnduri
+    total_Exp="3+"
+    print(name,total_Exp)
+    
+    def __init__(self): # constructor method / default method
+        a=10 # local var
+        print(name) # NTR
+        print(Trainer.name) # vamsiEnduri
+        self.price=200 # instance / self var
+        self.loc="Hyd" # instance / self var
+        print("bytecode manjeera")
+        
+
+    def first_company(self):
+        self.price=300
+        self.discount=0.20
+        name="Master IT solution Pvt Ltd"
+        ceo="anilKumar"
+        teamMember="varunAnji"
+        print("1st company")
+
+    def second_company(self):
+        name="careerSure"
+        ceo="ravi"
+        print("2nd company")
+
+    def third_company(self):
+        name="10000Coders"
+        ceo="rakesh"
+        teamMember="Akhil"
+        print("3rd company")
+
+    def currentCompany(self):
+        name="byteCode"
+        print("4th company")        
+print(name)
+obj=Trainer() # calling class leads creating the obj 
+print(name)
