@@ -39,4 +39,4 @@ class Trainer:
         print("4th company")        
 print(name)
 obj=Trainer() # calling class leads creating the obj 
-print(name)
+print(name) 
